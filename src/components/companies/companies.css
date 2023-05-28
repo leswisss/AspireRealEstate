@@ -1,0 +1,32 @@
+.companies{
+  width: 100%;
+}
+
+.companies__container{
+  justify-content: space-around !important;
+  gap: 1rem;
+}
+
+.partner__img{
+  width: 9rem;
+}
+
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 728px) {
+  .partner__img{
+    width: 8rem;
+  }
+
+  .companies__container{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 608px) {
+  .partner__img{
+    width: 7rem;
+  }
+}
